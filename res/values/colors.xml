@@ -131,4 +131,5 @@
 
     <color name="usage_graph_dots">#B0BEC5</color>
 
+    <color name="appops_accent_color">#ff7fcac3</color>
 </resources>
