@@ -27,4 +27,7 @@
     <string name="dev2_description">Helper, AOSP and Substratum and FOOD &#60;3LOVER , always hungry</string>
     <string name="dev_info">AOSP-OMS Developers</string>
 
+    <!-- substratum dashboard tile title -->
+    <string name="substratum_settings_title">Substratum</string>
+
 </resources>
