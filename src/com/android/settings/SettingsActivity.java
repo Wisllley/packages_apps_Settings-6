@@ -135,6 +135,11 @@ import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 
+import com.cardinal.wings.fragments.FlingSettings;
+import com.cardinal.wings.fragments.NavbarSettings;
+import com.cardinal.wings.fragments.SmartbarSettings;
+import com.cardinal.wings.fragments.PulseSettings;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -374,7 +379,11 @@ public class SettingsActivity extends SettingsDrawerActivity
             WifiAPITest.class.getName(),
             WifiInfo.class.getName(),
             SubstratumLaunch.class.getName(),
-            WingsSettings.class.getName()
+            WingsSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
 
