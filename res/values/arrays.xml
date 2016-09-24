@@ -1090,4 +1090,5 @@
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
     </string-array>
+
 </resources>
