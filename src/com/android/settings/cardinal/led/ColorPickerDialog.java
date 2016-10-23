@@ -89,7 +89,7 @@ public class ColorPickerDialog extends AlertDialog implements
     private void setUp(int color) {
         mInflater = (LayoutInflater) getContext()
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View layout = mInflater.inflate(R.layout.dialog_color_picker, null);
+        View layout = mInflater.inflate(R.layout.dui_dialog_color_picker, null);
 
         mColorPicker = (ColorPickerView) layout.findViewById(R.id.color_picker_view);
         mHexColorInput = (EditText) layout.findViewById(R.id.hex_color_input);
