@@ -3040,7 +3040,7 @@
 
         <!-- Global DUI settings activity. -->
         <activity android:name="Settings$NavigationSettingsActivity"
-                android:label="@string/navigation_title"
+                android:label="@string/navigation_category"
                 android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
