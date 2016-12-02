@@ -17,6 +17,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+        <!-- About Devs -->
+        <PreferenceScreen
+        android:key="dev_info"
+        android:title="@string/dev_info"
+        android:fragment="com.android.settings.cardinal.devs" />
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
