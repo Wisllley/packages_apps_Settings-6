@@ -22,7 +22,7 @@ import android.os.Bundle;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 
-import com.android.internal.logging.MetricsLogger;
+import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 public class devs extends SettingsPreferenceFragment {
 
@@ -35,7 +35,7 @@ public class devs extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DONT_TRACK_ME_BRO;
+        return MetricsEvent.THE_WINGS;
     }
 
 }

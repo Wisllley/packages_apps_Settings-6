@@ -15,7 +15,7 @@ implied.
 
 <PreferenceScreen
 xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="TeamCardinal">
+        android:title="About Project">
 
 <PreferenceCategory
               android:key="about"
